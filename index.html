@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Life</title>
+
+    <style>
+        .collage-life {
+
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;
+            color: rgb(247, 243, 241);
+            background-color: rgb(40, 21, 249);
+            padding: 2px;
+
+            border-color: black;
+            border-width: 4px;
+        }
+
+        .images {
+
+            border-radius: 12px;
+
+
+            padding-left: 6px;
+            padding-right: 6PX;
+        }
+
+        .intro-collage {
+
+            margin-left: 200px;
+
+            font-style: italic;
+            font-weight: bold;
+            font-size: 24px;
+
+
+
+            display: inline-block;
+            text-align: justify;
+
+        }
+
+        .classroom-image {
+            width: 600px;
+            height: 360px;
+            display: inline-block;
+            border-radius: 12px;
+            vertical-align: top;
+
+            padding-left: 6px;
+            padding-right: 6px;
+            padding-top: 6px;
+            padding-bottom: 4px;
+
+        }
+
+        .classroom {
+            border-style: solid;
+            border-width: 4px;
+            border-radius: 12px;
+
+
+            background-image: url("background3.jpg");
+        }
+
+        .classroom-experience {
+
+
+            width: 700px;
+            height: 400px;
+
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 25px;
+            padding-left: 60px;
+            flex-direction: row;
+            -ms-flex-align: center;
+
+
+
+
+
+        }
+
+        .classroom-memories,
+        .hostel-memories {
+            display: inline-block;
+            text-decoration: underline;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .subjects {
+
+            display: inline-block;
+            list-style: square;
+        }
+
+        ol {
+            list-style-type: none;
+        }
+
+        .hostel-life {
+            border-style: solid;
+            border-width: 4px;
+            border-radius: 12px;
+            padding-top: 4px;
+            margin-top: 4px;
+
+
+            background-image: url("background2.jpg");
+
+
+
+        }
+
+        .hostel-image {
+            width: 600px;
+            height: 360px;
+            display: inline-block;
+            border-radius: 12px;
+            vertical-align: top;
+
+            padding-left: 6px;
+            padding-right: 6px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+
+
+        }
+
+        .hostel-experience {
+            width: 700px;
+            height: 400px;
+
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 25px;
+            margin-left: 60px;
+            flex-direction: row;
+            -ms-flex-align: center;
+
+
+
+
+        }
+
+        .coding-culture {
+            border-style: solid;
+            border-width: 4px;
+            border-radius: 12px;
+            padding-top: 4px;
+            margin-top: 4px;
+
+
+            background-image: url("backgroundimage.jpeg");
+
+
+
+
+
+
+        }
+
+        .coding-image {
+            width: 600px;
+            height: 360px;
+            display: inline-block;
+            border-radius: 12px;
+            vertical-align: top;
+
+            padding-left: 6px;
+            padding-right: 6px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+
+
+
+        }
+
+        .coding-memories {
+            display: inline-block;
+            text-decoration: underline;
+            font-weight: bold;
+            font-style: italic;
+            color: aliceblue;
+
+        }
+
+        .intro-our {
+
+            border-style: none;
+            border-width: 4px;
+            border-radius: 12px;
+            padding-top: 4px;
+            margin-top: 50px;
+            background-color: azure;
+        }
+
+        .our-team {
+            display: inline;
+            font-weight: bold;
+            font-size: 20px;
+            text-decoration: underline;
+
+        }
+
+        .rupesh {
+            display: inline-block;
+            width: 300px;
+            vertical-align: top;
+            margin-left: 50px;
+        }
+
+        .shivam {
+            display: inline-block;
+            width: 300px;
+            vertical-align: top;
+            margin-left: 260px;
+
+        }
+
+        .bipin {
+            display: inline-block;
+            width: 300px;
+            vertical-align: top;
+            margin-left: 250px;
+
+        }
+
+        .rupesh-image {
+
+            display: inline-block;
+            height: 300px;
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        .shivam-image {
+            display: inline-block;
+            height: 300px;
+            width: 300px;
+            border-radius: 10px;
+            vertical-align: top;
+
+        }
+
+        .bipin-image {
+            display: inline-block;
+            height: 300px;
+            width: 300px;
+            border-radius: 10px;
+            vertical-align: top;
+
+
+        }
+
+        .our-text {
+            text-align: center;
+            font-weight: bold;
+
+        }
+
+        .thanks {
+            margin-top: 50px;
+            font-weight: bold;
+            font-size: 50px;
+            font-style: italic;
+            color: darkgreen;
+
+
+
+            vertical-align: bottom;
+
+        }
+    </style>
+
+
+
+</head>
+
+<body bgcolor="white">
+
+    <center>
+        <h1 class="collage-life"><u><b>College Life</b></u></h1>
+    </center>
+
+
+    <marquee scrollamount="20">
+        <h2 style="color:rgb(0, 255, 30)"><u>Academics || Hostel Life || Fun || Coding Culture </u></h2>
+    </marquee>
+    </marquee>
+
+    <center>
+        <h1 style="color:red"><u><b>Academics</b></u></h2>
+    </center>
+    <div class="all-images">
+        <center>
+            <marquee scrollamount="20">
+                <img class="images" src="Hostel from Ground.jpg" alt="Campus" width="800" height="350">
+                <img class="images" src="College Academic Board.jpg" alt="College Board" width="200" height="350">
+                <img class="images" src="Academic Block.jpg" width="800" height="350">
+                <img class="images" src="Academic Building at Night.jpg" width="800" height="350">
+                <img class="images" src="Hostel with residential best.jpg" width="800" height="350">
+        </center>
+        </marquee>
+    </div>
+
+    <div class="intro-collage">
+
+        <p style="text-align:center ;">After Counselling We joined college in online mode and attended 1<sup>st</sup>
+            semester complete online
+            from classes to exams.
+            It was very good experience to arrive collage for offilne classes after covud pandemic
+
+        </p>
+    </div>
+    <div class="classroom">
+
+        <div class="classroom-image">
+            <img class="classroom-image" src="classroom with boys.jpg" alt="">
+
+
+
+
+        </div>
+        <div class="classroom-experience">
+
+            <head CLASS="classroom-memories"><u>CLASSROOM MEMORIES</u> </head>
+            <p>
+                Our First classroom experience was Awesome.Interaction with professor,
+                Interaction with friend and many things.</p>
+            <p>In This semester we are studying following subjects:-</p>
+            <div class="subjects">
+                <ol>
+                    <li>Digital Electronics. </li>
+                    <li>Data Structure. </li>
+                    <li>Probability and Statistics.</li>
+                    <li>Discreate Mathematics. </li>
+                    <li>Digital Electronics Lab. </li>
+                    <li>Data Structure Lab. </li>
+                </ol>
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="hostel-life">
+
+
+
+        <div class="hostel-experience">
+
+            <head CLASS="hostel-memories"><u>HOSTEL LIFE</u> </head>
+            <p>
+                Hostel life is Good. We have alloted a Flat of 3-Room, 3 Bathroom, 1 Hall
+                where in everyroom there is Air Conditioners installed.
+                Having a study environment in hostel to Enjoyment everything we do.
+                We play video game like pubg, freefire together,solve complex coding problem together, <b>Created
+                    Memories like GPL on Birthday boy.</b>, Doing Dance and having too much fun.
+            </p>
+        </div>
+        <div class="hostel-image">
+            <img class="hostel-image" src="hostel movie.jpeg" alt="">
+
+
+
+
+
+        </div>
+
+    </div>
+
+    <div class="coding-culture">
+        <div class="coding-image">
+            <img class="coding-image" src="coding2image.jpeg" alt="">
+
+        </div>
+        <div class="hostel-experience">
+
+            <head class="hostel-memories"><u>CODING-CULTURE</u> </head>
+            <p>
+                Our college have very good coding culture. Students here are working on many real life problems and
+                solve accordingly to server society.
+                our seniors are very supporting, they take classes and teach many different tech fields.
+
+            </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    </div>
+
+    <div class="intro-our">
+        <div class="our-team">
+            <center>
+
+                <head>
+                    <ul>OUR TEAM</ul>
+                </head>
+            </center>
+        </div>
+
+        <div class="rupesh">
+            <img class="rupesh-image" src="Study in library.jpg" alt="">
+            <p class="our-text"> NAME-RUPESH NARAYAN <br>
+                ROLL.N0-2021UG4014<br>
+                SEC-'D'<br>
+                <a href="https://www.linkedin.com/in/rupesh-narayan-9161ab229"><b>Resume</b></a>
+            </p>
+        </div>
+
+        <div class="shivam">
+
+            <img class="shivam-image" src="shivam2image.jpeg">
+            <P class="our-text"> NAME- SHIVAM BHARDWAJ<BR>
+                ROLL NO.-2021UG4002 <BR>
+                SEC-'D'<br>
+                <a href="https://www.linkedin.com/in/shivam-bhardwaj-a6b243223"><b>Resume</b></a>
+            </P>
+        </div>
+
+        <div class="bipin">
+
+            <img class="bipin-image" src="bipin-image.jpeg" alt="">
+            <P class="our-text">
+                NAME -BIPIN BATHRA<BR>
+                ROLL NO.-2021UG4015<BR>
+                SEC-'D'<br>
+                <a href="https://www.linkedin.com/in/bipin-bathra-7b04b2240"><b>Resume</b></a>
+            </P>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <div class="thanks">
+        <center>
+
+            <head class="thanks">THANK YOU</head>
+        </center>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
